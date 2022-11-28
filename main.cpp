@@ -8,7 +8,7 @@ void FreeNodeList(Node * n)
 {
 	if (n->getNext() == nullptr)
 	{
-		delete n;
+		delete n; //add a comment
 	}
 	else
 	{
